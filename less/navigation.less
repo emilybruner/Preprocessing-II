@@ -1,1 +1,51 @@
 // Navigation Styles here
+
+.navigation{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 33%;
+    margin-top: 3%;;
+    border-bottom: 2px dashed @navigation-border;
+
+    @media @phone {
+        flex-direction: column;
+        width: 98%;
+        margin-left: 2%;
+    }
+        
+
+}
+
+.navh2{
+    font-size: 6rem;
+
+    @media @phone {
+        font-size: 3rem;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+
+    @media @phone {
+        width: 98%;
+        
+    }
+}
+nav a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    color: @shark;
+    text-decoration: none;
+    font-weight: 600;
+
+    @media @phone {
+        width: 100%;
+    }
+        
+    }
+    
